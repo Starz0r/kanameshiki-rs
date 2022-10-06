@@ -1,0 +1,4 @@
+# kanameshiki-sys
+[![GitHub](https://img.shields.io/github/license/Starz0r/kanameshiki-rs?style=flat-square)](https://github.com/Starz0r/kanameshiki-rs) [![crates.io badge](https://shields.io/crates/v/kanameshiki-sys?style=flat-square)](https://crates.io/kanameshiki-sys) [![Docs.rs](https://img.shields.io/docsrs/kanameshiki-sys/latest?style=flat-square)](https://docs.rs/kanameshiki-sys/latest) ![rustc requirements](https://img.shields.io/badge/rust-1.49+-brightgreen.svg?logo=rust&style=flat-square)
+
+This crate provides the low-level interface. Directly exposing the C FFI directly. Currently it is very sparse, but covers all externally exported calls, as the allocator it's self does not have any knobs to turn.

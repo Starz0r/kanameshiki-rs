@@ -1,0 +1,14 @@
+[package]
+name = "kanameshiki"
+version = "0.1.0"
+edition = "2021"
+authors = ["Starz0r"]
+license = "MIT"
+readme = "README.md"
+description = "An alternative allocator, utilizing 領式(Kaname Shiki)."
+documentation = "https://docs.rs/kanameshiki/latest"
+repository = "https://github.com/Starz0r/kanameshiki-rs"
+
+[dependencies.kanameshiki-sys]
+path = "../KanameShiki-sys"
+version = "0.1.0"

@@ -1,0 +1,16 @@
+[package]
+name = "kanameshiki-sys"
+version = "0.1.0"
+edition = "2021"
+authors = ["Starz0r"]
+license = "MIT"
+readme = "README.md"
+description = "Low-level FFI bindings to the 領式(Kaname Shiki) memory allocator."
+documentation = "https://docs.rs/kanameshiki-sys/latest"
+repository = "https://github.com/Starz0r/kanameshiki-rs"
+
+[dependencies]
+cty = "0.2.2"
+
+[build-dependencies]
+bindgen = "0.60.1"
